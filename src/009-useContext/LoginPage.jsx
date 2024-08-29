@@ -9,16 +9,16 @@ export const LoginPage = () => {
 
   return (
     <>
-      <h1>Login Page</h1>
+      <h1>LoginPage</h1>
       <hr />
-        <pre>
-          {JSON.stringify(user, null, 3)}
+      <pre aria-label='pre'>
+      {JSON.stringify(user, null, 3)}
         </pre>
       <hr />
 
 
 
-        <button className="btn btn-primary" onClick={ () => setUser({id:123, name:'Juan', email: 'juan@google.com'}) }>
+        <button role="button" className="btn btn-primary" onClick={ () => setUser({id:123, name:'Juan', email: 'juan@google.com'}) }>
           Establecer usuario
         </button>
     </>  

@@ -14,9 +14,9 @@ export const MainApp = () => {
         <hr />
 
         <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="login" element={<LoginPage />} />
-            <Route path="about" element={<AboutPage />} />
+            <Route aria-label='home' path="/" element={<HomePage />} />
+            <Route aria-label='login' path="login" element={<LoginPage />} />
+            <Route aria-label='about' path="about" element={<AboutPage />} />
 
 
 
